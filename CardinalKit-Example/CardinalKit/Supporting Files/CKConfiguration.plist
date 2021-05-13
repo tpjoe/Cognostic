@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Study Title</key>
+	<string>Cognostic</string>
+	<key>Team Name</key>
+	<string>UWAppDev × Stanford</string>
+	<key>Email</key>
+	<string>Cognostic@uwdev.app</string>
+	<key>Phone</key>
+	<string>650-123-4567</string>
+	<key>Copyright</key>
+	<string>Made by Cognostic team with 💜♥️</string>
+	<key>Website</key>
+	<string>https://uwdev.app/projects/cognostic</string>
+	<key>Tint Color</key>
+	<string>#b6133f</string>
+	<key>Primary Color</key>
+	<string>#41803d</string>
+	<key>Review Consent Step Text</key>
+	<string>Review Consent Form</string>
+	<key>Reason for Consent Text</key>
+	<string>Consent to join the Cognostic Study.</string>
+	<key>Consent File Name</key>
+	<string>My Consent Form</string>
+	<key>Passcode Text</key>
+	<string>Now you will create a passcode to identify yourself to the app and protect access to information you&apos;ve entered.</string>
+	<key>Passcode Type</key>
+	<string>4</string>
+	<key>Completion Step Title</key>
+	<string>Welcome aboard.</string>
+	<key>Completion Step Text</key>
+	<string>Thank you for joining Cognostic.</string>
+	<key>Failed Login Title</key>
+	<string>Unable to Login 😔</string>
+	<key>Failed Login Text</key>
+	<string>Please try again in five minutes.</string>
+	<key>Health Permissions Title</key>
+	<string>Health Data</string>
+	<key>Health Permissions Text</key>
+	<string>On the next screen, you will be prompted to grant access to read and write some of your general and health information, such as height, weight, and steps taken so you don&apos;t have to enter it again.</string>
+	<key>Background Read Frequency</key>
+	<string>immediate</string>
+	<key>Login Step Title</key>
+	<string>Almost done!</string>
+	<key>Login Step Text</key>
+	<string>We need to confirm your email address and send you a copy of the consent you just signed.</string>
+	<key>Withdrawal Instruction Title</key>
+	<string>Are you sure you want to withdraw?</string>
+	<key>Withdrawal Instruction Text</key>
+	<string>Withdrawing from the study will reset the app to the state it was in prior to you originally joining the study.</string>
+	<key>Withdraw Title</key>
+	<string>We appreciate your time.</string>
+	<key>Withdraw Text</key>
+	<string>Thank you for your contribution to this study. We are sorry that you could not continue. The app will now close.</string>
+	<key>Passcode On Return Text</key>
+	<string>Welcome back!</string>
+	<key>Consent Title</key>
+	<string>Cognostic Research Study Consent Form</string>
+	<key>HealthKit Data to Read</key>
+	<array/>
+	<key>Onboarding</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Welcome to Cognostic</string>
+			<key>Description</key>
+			<string>Current clinical trials have ~50-70% failure rate (costing $5.7B for Alzheimer disease) because the participant does not meet the inclusion/exclusion criteria, not to mention the time consumption and requirements of costly in-person meetings</string>
+			<key>Logo</key>
+			<string>💵</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Population</string>
+			<key>Description</key>
+			<string>General populations who are at risk of developing dementia, such as age 60 or above. Patients of neuro-degenerative disease, such as Parkinson’s and Alzhiemer’s.
+</string>
+			<key>Logo</key>
+			<string>👵</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Outcome</string>
+			<key>Description</key>
+			<string>Remotely identify and monitor patients’ cognitive performance. If necessary, refer patients for further clinical evaluation and to provide data for clinical or observational trials for early intervention and therapy. </string>
+			<key>Logo</key>
+			<string>🩺</string>
+		</dict>
+	</array>
+	<key>Health Records</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+		<key>Permissions Text</key>
+		<string>Your health records of condition, problem, diagnosis, or other event; lab results; medication; and procedures will be used to make medical suggestions. </string>
+		<key>Permissions Title</key>
+		<string>Permission to read Health Records 🏥</string>
+	</dict>
+	<key>Consent Form</key>
+	<dict>
+		<key>Overview</key>
+		<dict>
+			<key>Title</key>
+			<string>Hi there! 👋🏽</string>
+			<key>Summary</key>
+			<string>Welcome to Cognostic study. Enrollment for cognitive impairment clinical trials, such as Parkinson’s and Alzhiemer’s, is time consuming and requires in person meetings which is costly and especially difficult during COVID-19. Cognostic&apos;s goal is to provide a digital, simpler way to screen candidates for clinical trials for neuro-degenerative diseases. You would be able to access this consent form in settings at any time.</string>
+			<key>Content</key>
+			<string>Welcome to Cognostic study. Enrollment for cognitive impairment clinical trials, such as Parkinson’s and Alzhiemer’s, is time consuming and requires in person meetings which is costly and especially difficult during COVID-19. Cognostic&apos;s goal is to provide a digital, simpler way to screen candidates for clinical trials for neuro-degenerative diseases. You would be able to access this consent form in settings at any time.</string>
+		</dict>
+		<key>DataGathering</key>
+		<dict>
+			<key>Title</key>
+			<string>Data Gathering 🩺</string>
+			<key>Summary</key>
+			<string>This study collects your touch activity, completion time, raw audio recording, eye side and area of distortions.</string>
+			<key>Content</key>
+			<string>This study collects your touch activity, completion time, raw audio recording, eye side and area of distortions.</string>
+		</dict>
+		<key>Privacy</key>
+		<dict>
+			<key>Title</key>
+			<string>Privacy 🔒</string>
+			<key>Summary</key>
+			<string>Your data privacy matters the most to us. We use information to help improve the safety and reliability of our services. This includes detecting, preventing, and responding to fraud, abuse, security risks and technical issues that could harm Cognostic, our users or the public.</string>
+			<key>Content</key>
+			<string>Your data privacy matters the most to us. We use information to help improve the safety and reliability of our services. This includes detecting, preventing, and responding to fraud, abuse, security risks and technical issues that could harm Cognostic, our users or the public.</string>
+		</dict>
+		<key>DataUse</key>
+		<dict>
+			<key>Title</key>
+			<string>Data Use ⚙️</string>
+			<key>Summary</key>
+			<string>Focusing on preventive care, Cognostic looks beyond your symptoms to consider how environmental and lifestyle factors impact your health.</string>
+			<key>Content</key>
+			<string>Focusing on preventive care, Cognostic looks beyond your symptoms to consider how environmental and lifestyle factors impact your health.</string>
+		</dict>
+		<key>TimeCommitment</key>
+		<dict>
+			<key>Title</key>
+			<string>Time Commitment ⏳</string>
+			<key>Summary</key>
+			<string>You&apos;ll be asked to complete active tasks and surveys every now and then.</string>
+			<key>Content</key>
+			<string>You&apos;ll be asked to complete active tasks and surveys every now and then. You&apos;ll receive a notification when they are ready for you to complete.</string>
+		</dict>
+		<key>StudySurvey</key>
+		<dict>
+			<key>Title</key>
+			<string>Study Survey 📋</string>
+			<key>Summary</key>
+			<string>Study surveys provide more information to your health condition and help Cognostic identify and track cognitive performance.</string>
+			<key>Content</key>
+			<string>Study surveys provide more information to your health condition and help Cognostic identify and track cognitive performance.</string>
+		</dict>
+		<key>StudyTasks</key>
+		<dict>
+			<key>Title</key>
+			<string>Study Tasks 📐</string>
+			<key>Summary</key>
+			<string>You will be asked to complete tasks contained in this study from Trailmaking, Part A / B, Spatial Memory, Speech Recognition and Amsler Grid.</string>
+			<key>Content</key>
+			<string>You will be asked to complete tasks contained in this study from Trailmaking, Part A / B, Spatial Memory, Speech Recognition and Amsler Grid.</string>
+		</dict>
+		<key>Withdrawing</key>
+		<dict>
+			<key>Title</key>
+			<string>Withdrawing 🛑</string>
+			<key>Summary</key>
+			<string>At any time of using Cognostic, you can opt to withdraw from the study. You will have the option to entirely erase your test data.</string>
+			<key>Content</key>
+			<string>At any time of using Cognostic, you can opt to withdraw from the study. You will have the option to entirely erase your test data.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

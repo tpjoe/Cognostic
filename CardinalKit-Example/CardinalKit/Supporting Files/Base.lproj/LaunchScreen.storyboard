@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18092"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="znm-zy-YBQ">
+                                <rect key="frame" x="20" y="306" width="335" height="166.33333333333337"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppDevUW" translatesAutoresizingMaskIntoConstraints="NO" id="yNe-Ri-GXn">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="101"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="120" id="B55-2y-cLT"/>
+                                            <constraint firstAttribute="width" secondItem="yNe-Ri-GXn" secondAttribute="height" multiplier="1275:384" id="OuA-tP-CRQ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StanfordMedicine" translatesAutoresizingMaskIntoConstraints="NO" id="kYd-Gy-c9g">
+                                        <rect key="frame" x="0.0" y="108.99999999999999" width="335" height="57.333333333333329"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="o0i-bQ-geh"/>
+                                            <constraint firstAttribute="width" secondItem="kYd-Gy-c9g" secondAttribute="height" multiplier="327:56" id="wFG-qf-CDm"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="znm-zy-YBQ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5Yf-85-OBA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" relation="lessThanOrEqual" secondItem="znm-zy-YBQ" secondAttribute="top" id="Gff-ZQ-TVd"/>
+                            <constraint firstItem="znm-zy-YBQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="LC7-ed-PDU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="znm-zy-YBQ" secondAttribute="trailing" constant="20" id="pl5-NE-ZrY"/>
+                            <constraint firstItem="yNe-Ri-GXn" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="centerY" priority="999" constant="-4" id="yvO-wY-Val"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AppDevUW" width="1275" height="384"/>
+        <image name="StanfordMedicine" width="328" height="56"/>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
