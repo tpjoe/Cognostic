@@ -214,18 +214,30 @@ struct OnboardingVC: UIViewControllerRepresentable {
         let introSteps = [consentStep, reviewConsentStep]
         
         // and steps regarding login / security
+//        let emailVerificationSteps = [
+//            chooseEnrollMethodStep, registerStep, loginStep, signInWithAppleStep,
+//            passcodeStep,
+//            // healthDataStep, // only enable if there are health kit data to read
+//            healthRecordsStep, completionStep
+//        ]
+
         let emailVerificationSteps = [
-            chooseEnrollMethodStep, registerStep, loginStep, signInWithAppleStep,
+            signInWithAppleStep,
             passcodeStep,
             // healthDataStep, // only enable if there are health kit data to read
             healthRecordsStep, completionStep
         ]
-
+        
         // let stepsToUse = true // DEBUG ONLY
+//        let stepsToUse = CKStudyUser.shared.email != nil
+//            ? emailVerificationSteps // receive magic link
+//            : introSteps + emailVerificationSteps  // guide the user through ALL steps
+
         let stepsToUse = CKStudyUser.shared.email != nil
             ? emailVerificationSteps // receive magic link
-            : introSteps + emailVerificationSteps  // guide the user through ALL steps
+            : emailVerificationSteps  // guide the user through ALL steps
 
+        
         /* **************************************************************
          * and SHOW the user these steps!
          **************************************************************/

@@ -99,6 +99,8 @@
 		4D813614264BF6C100E7DEA5 /* ModelsR4 in Frameworks */ = {isa = PBXBuildFile; productRef = 4D813613264BF6C100E7DEA5 /* ModelsR4 */; };
 		4D813616264BF6C100E7DEA5 /* ModelsDSTU2 in Frameworks */ = {isa = PBXBuildFile; productRef = 4D813615264BF6C100E7DEA5 /* ModelsDSTU2 */; };
 		4D813618264BF6C100E7DEA5 /* ModelsSTU3 in Frameworks */ = {isa = PBXBuildFile; productRef = 4D813617264BF6C100E7DEA5 /* ModelsSTU3 */; };
+		4DB4334B264F950C005C39F8 /* Pods-Cognostic-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB4334A264F950B005C39F8 /* Pods-Cognostic-acknowledgements.plist */; };
+		4DB4334D264F9650005C39F8 /* Package.resolved in Resources */ = {isa = PBXBuildFile; fileRef = 4DB4334C264F9650005C39F8 /* Package.resolved */; };
 		8E0A43CE244A60D800656518 /* Pods_CardinalKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D31556B648F48DA664CEE80 /* Pods_CardinalKit_Example.framework */; };
 		8E0A43D5244A693D00656518 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0A43D4244A693D00656518 /* HealthKit.framework */; };
 /* End PBXBuildFile section */
@@ -202,6 +204,8 @@
 		4D8134F6264BED2E00E7DEA5 /* SceneDelegate+CardinalKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SceneDelegate+CardinalKit.swift"; sourceTree = "<group>"; };
 		4D8134F7264BED2E00E7DEA5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D8134F8264BED2E00E7DEA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4DB4334A264F950B005C39F8 /* Pods-Cognostic-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-Cognostic-acknowledgements.plist"; sourceTree = "<group>"; };
+		4DB4334C264F9650005C39F8 /* Package.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Package.resolved; sourceTree = "<group>"; };
 		58275A0CAB0C7223B21F375D /* Pods-CardinalKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardinalKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CardinalKit_Tests/Pods-CardinalKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CardinalKit Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CardinalKit Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AA5CD1C2188D392530510F /* CardinalKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CardinalKit.podspec; path = ../CardinalKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -389,6 +393,8 @@
 			children = (
 				4D8134C3264BED2E00E7DEA5 /* Constants.swift */,
 				4D8134C4264BED2E00E7DEA5 /* CKConfiguration-example.plist */,
+				4DB4334C264F9650005C39F8 /* Package.resolved */,
+				4DB4334A264F950B005C39F8 /* Pods-Cognostic-acknowledgements.plist */,
 				4D8134C5264BED2E00E7DEA5 /* Cognostic-Bridging-Header.h */,
 				4D8134C6264BED2E00E7DEA5 /* CKConfiguration.plist */,
 				4D8134C7264BED2E00E7DEA5 /* Assets.xcassets */,
@@ -656,11 +662,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB4334B264F950C005C39F8 /* Pods-Cognostic-acknowledgements.plist in Resources */,
 				4D813521264BED2E00E7DEA5 /* CKConfiguration.plist in Resources */,
 				4D813520264BED2E00E7DEA5 /* CKConfiguration-example.plist in Resources */,
 				4D813523264BED2E00E7DEA5 /* GoogleService-Info.plist in Resources */,
 				4D813524264BED2E00E7DEA5 /* LaunchScreen.storyboard in Resources */,
 				4D813522264BED2E00E7DEA5 /* Assets.xcassets in Resources */,
+				4DB4334D264F9650005C39F8 /* Package.resolved in Resources */,
 				4D813509264BED2E00E7DEA5 /* LoginCustomWaitStepView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

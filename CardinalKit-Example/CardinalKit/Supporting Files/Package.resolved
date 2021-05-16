@@ -1,0 +1,61 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AcknowList",
+        "repositoryURL": "https://github.com/vtourraine/AcknowList.git",
+        "state": {
+          "branch": "main",
+          "revision": "8317486574cc5339be52922e2b74d19429893dff",
+          "version": null
+        }
+      },
+      {
+        "package": "CareKit",
+        "repositoryURL": "https://github.com/carekit-apple/CareKit.git",
+        "state": {
+          "branch": "main",
+          "revision": "716e47f741495abb08099ac7456c4b21c5066a66",
+          "version": null
+        }
+      },
+      {
+        "package": "EFStorage",
+        "repositoryURL": "https://github.com/EFPrefix/EFStorage.git",
+        "state": {
+          "branch": "master",
+          "revision": "520ae8e603cef15cb753f95c1359f12af0db5e67",
+          "version": null
+        }
+      },
+      {
+        "package": "FHIRModels",
+        "repositoryURL": "https://github.com/apple/FHIRModels.git",
+        "state": {
+          "branch": null,
+          "revision": "c91e5bb74397136f79656bebdfda76a523d3e88c",
+          "version": "0.3.2"
+        }
+      },
+      {
+        "package": "KeychainAccess",
+        "repositoryURL": "https://github.com/kishikawakatsumi/KeychainAccess.git",
+        "state": {
+          "branch": null,
+          "revision": "8d33ffd6f74b3bcfc99af759d4204c6395a3f918",
+          "version": "3.2.1"
+        }
+      },
+      {
+        "package": "YYCache",
+        "repositoryURL": "https://github.com/EFPrefix/YYCache.git",
+        "state": {
+          "branch": null,
+          "revision": "632e4a683cec7a03c8a8fc6de677f1b00d5a00bf",
+          "version": "1.0.5"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

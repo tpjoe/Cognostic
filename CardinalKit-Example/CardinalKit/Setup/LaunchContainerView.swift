@@ -16,8 +16,9 @@ struct LaunchContainerView: View {
             if showHomeScreen {
                 HomeView()
             } else {
-                OnboardingUI()
-                    .transition(.slide)
+                HomeView()
+//                OnboardingUI()
+//                    .transition(.slide)
             }
         }
         .onReceive(UserDefaults.standard.publisher(for: \.showHomeScreen))
