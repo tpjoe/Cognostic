@@ -66,26 +66,25 @@
 			<key>Title</key>
 			<string>Welcome to Cognostic</string>
 			<key>Description</key>
-			<string>Current clinical trials have ~50-70% failure rate (costing $5.7B for Alzheimer disease) because the participant does not meet the inclusion/exclusion criteria, not to mention the time consumption and requirements of costly in-person meetings</string>
+			<string>[Text Placeholder]</string>
 			<key>Logo</key>
-			<string>💵</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Population</string>
 			<key>Description</key>
-			<string>General populations who are at risk of developing dementia, such as age 60 or above. Patients of neuro-degenerative disease, such as Parkinson’s and Alzhiemer’s.
-</string>
+			<string>[Text Placeholder]</string>
 			<key>Logo</key>
-			<string>👵</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Outcome</string>
 			<key>Description</key>
-			<string>Remotely identify and monitor patients’ cognitive performance. If necessary, refer patients for further clinical evaluation and to provide data for clinical or observational trials for early intervention and therapy. </string>
+			<string>[Text Placeholder]</string>
 			<key>Logo</key>
-			<string>🩺</string>
+			<string></string>
 		</dict>
 	</array>
 	<key>Health Records</key>
